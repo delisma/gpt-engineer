@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 
 class AI:
-    def __init__(self, model="gpt-4", temperature=0.1):
+    def __init__(self, model="gpt-3.5-turbo-16k", temperature=0.1):
         self.temperature = temperature
         self.model = model
 
